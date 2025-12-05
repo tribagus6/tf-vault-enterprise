@@ -1,0 +1,7 @@
+#SSH into one of the Vault nodes and verify that the startup script has been applied correctly:
+tribagus325@vault-1:~$ sudo curl http://metadata.google.internal/computeMetadata/v1/instance/attributes/startup-script \
+  -H "Metadata-Flavor: Google"
+
+#check the the status of startup script execution:
+sudo journalctl -u google-startup-scripts.service --no-pager | tail -100
+

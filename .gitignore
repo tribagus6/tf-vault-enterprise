@@ -1,0 +1,64 @@
+#######################################
+# Terraform
+#######################################
+.terraform/
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+*.tfvars
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+#######################################
+# Secrets & Sensitive Files
+#######################################
+.vault-token
+.vault-unseal-keys
+.vault-password
+*.hclic
+*.pem
+*.key
+*.crt
+secrets.auto.tfvars
+terraform.tfvars
+license.tfvars
+env.tfvars
+
+#######################################
+# Vault
+#######################################
+vault-data/
+vault-logs/
+vault-backup/
+
+#######################################
+# OS / Editor
+#######################################
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.bak
+*~
+.vscode/
+.idea/
+
+#######################################
+# Logs
+#######################################
+*.log
+
+#######################################
+# Shell
+#######################################
+.env
+.env.*
+
+#######################################
+# Generated startup scripts (optional)
+#######################################
+/scripts/*.rendered.sh
