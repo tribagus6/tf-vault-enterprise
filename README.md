@@ -1,6 +1,3 @@
-Sure — here is the **exact copied `README.md` content** you can paste directly into your repo:
-
-```md
 # Terraform Vault Enterprise on GCP
 
 This repository provisions a **HashiCorp Vault Enterprise** cluster on **Google Cloud Platform (GCP)** using **Terraform**, with:
@@ -33,8 +30,6 @@ This project is production-oriented and fully automated with Terraform.
 
 ## 📁 Repository Structure
 
-```
-
 .
 ├── main.tf
 ├── variables.tf
@@ -46,7 +41,6 @@ This project is production-oriented and fully automated with Terraform.
 ├── .gitignore
 └── README.md
 
-````
 
 ---
 
@@ -209,4 +203,3 @@ GitHub: [https://github.com/tribagus6](https://github.com/tribagus6)
 This project is provided as-is for learning and infrastructure automation purposes.
 Vault Enterprise itself requires a valid HashiCorp license.
 
-````
